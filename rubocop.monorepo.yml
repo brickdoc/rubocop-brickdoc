@@ -1,0 +1,5 @@
+inherit_gem:
+  rubocop-brickdoc: rubocop.yml
+
+AllCops:
+  CacheRootDirectory: tmp/cache/rubocop_cache
