@@ -1,19 +1,19 @@
-# Brickdoc Rubocop
+# Pleisto Rubocop
 
-This gem provides rubocop configuration for use on Brickdoc open source and internal Ruby projects.
+This gem provides rubocop configuration for use on Pleisto open source and internal Ruby projects.
 
 ## How to use
 
 ### Gemfile
 
 ```ruby
-gem "rubocop-brickdoc", require: false
+gem "rubocop-pleisto", require: false
 ```
 
 ### .rubocop.yml
 
 ```yaml
 inherit_gem:
-  rubocop-brickdoc:
+  rubocop-pleisto:
     - rubocop.yml
 ```
